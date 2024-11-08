@@ -27,8 +27,6 @@ O processo de treinamento continua até que todas as saídas estejam corretas ou
 5. Método corrigirPeso
 Esse método ajusta os pesos sinápticos quando a saída do perceptron não corresponde ao valor esperado.
 Utiliza a fórmula:
-scss
-Copiar código
 w[i] = w[i] + (taxa_aprendizagem * erro * entrada)
 Neste caso, a taxa de aprendizado é 1, e o erro é a diferença entre o valor esperado e a saída atual.
 Os pesos para cada entrada (w[0] e w[1]) são ajustados em relação às entradas, enquanto o peso do bias (w[2]) é ajustado em relação a -1 (para representar o bias negativo).
